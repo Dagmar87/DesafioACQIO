@@ -1,0 +1,30 @@
+package Exercicio03;
+
+import java.util.Scanner;
+
+public class Exercicio03 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		
+		int l;
+		
+		System.out.println("Digite a quantidade de numeros do loop:");
+		l = sc.nextInt();		
+		
+		for(int i=0; i < l; i++) {
+			
+			
+			double n;
+			
+			System.out.println("Entre o numero:");
+			n = sc.nextDouble();
+			
+			System.out.println("sqrt (" + n + ") = " + Math.sqrt(n));
+			
+		}
+
+	}
+
+}

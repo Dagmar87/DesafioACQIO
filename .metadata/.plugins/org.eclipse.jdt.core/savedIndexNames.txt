@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/dagmar87/testes/DesafioACQIO/.metadata/.plugins/org.eclipse.jdt.core
+1142301010.index
+4048133997.index
