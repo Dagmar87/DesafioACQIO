@@ -45,9 +45,6 @@ public class Exercicio02 {
 			N[i] = sc.nextInt();			
 		}
 		
-		chkSum(N, tam, res);
-		
-		/*
 		if(chkSum(N, tam, res)) {
 			
 			System.out.println("Os numeros para essa soma de " + res + " existem!!!");
@@ -59,8 +56,6 @@ public class Exercicio02 {
 			System.out.println("Não existem os numeros para essa soma de " + res + ".");
 			
 		}
-		
-		*/
 		
 	}
 

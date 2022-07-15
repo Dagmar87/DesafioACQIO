@@ -4,21 +4,20 @@ import java.util.Scanner;
 
 public class Exercicio03 {
 	
-	public static double sqrt(double n) {
+	public static int sqrt(double n) {
 		
-		double t;
+		int x = 0;
+		int i = 0;
 		
-		double raiz = n / 2;
-		
-		do {
+		while(i <= n) {
 			
-			t = raiz;
+			n -= i;
+			i += 2;
+			x++;			
 			
-			raiz = (t + (n / t)) / 2;			
-			
-		} while ((t - raiz) != 0);
+		}
 		
-		return raiz;
+		return x;
 		
 	}
 
@@ -29,10 +28,12 @@ public class Exercicio03 {
 		System.out.println("Digite a quantidade de numeros do loop:");
 		int l = sc.nextInt();		
 		
-		for(int i=0; i < l; i++) {			
+		for(int i=0; i < l; i++) {
+						
+			double n;
 			
 			System.out.println("Entre o numero:");
-			double n = sc.nextDouble();
+			n = sc.nextDouble();
 			
 			System.out.println("sqrt (" + n + ") = " + sqrt(n));
 			
